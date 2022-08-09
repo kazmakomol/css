@@ -1,0 +1,64 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* name selector */
+body { 
+    background-color: brown;
+    color:red;
+}
+/* id selector */
+#admin-box {
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    margin:100px auto 0px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* decendent selector */
+#admin-box h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}form {
+    margin: 20px 0px;
+}
+input,
+lebel {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+lebel{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="submit"]{
+    width: 50%;
+    margin-top: 20px;
+    background-color: brown;
+    font-size: 17px;
+    transition:ease-in-out 0.8s
+}
+
+input[type="submit"]:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p a {
+    margin: 10px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
